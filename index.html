@@ -3,13 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>Color Lab</title>
 </head>
 <body>
+    <header>
+        <h1>Color Lab</h1>
+        <div class="inputs">
+            <div class="color-input">
+                <input value="ff0000" data-jscolor="" id="color1">
+            </div>
+            <div class="color-input">
+                <input value="00ff00" data-jscolor="" id="color2">
+            </div>
+            <div class="count-input">
+                <select id="count">
+                    <option value="6" selected>6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+            </div>
+        </div>
+    </header>
     
+    <div class="palette" id="palette">
+
+    </div>
 
 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jscolor/2.4.0/jscolor.min.js"
+        integrity="sha512-bMat/mmLbcA7+0vsFgFCvSzaut1uR9O9zt7agfEey9HXEeTounlQvgqA6D/X35bHQNy/32tJfogv+Ly/UynT/A=="
+        crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.1.0/chroma.min.js"
         integrity="sha512-yocoLferfPbcwpCMr8v/B0AB4SWpJlouBwgE0D3ZHaiP1nuu5djZclFEIj9znuqghaZ3tdCMRrreLoM8km+jIQ=="
         crossorigin="anonymous"></script>

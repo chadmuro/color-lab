@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: "Ubuntu", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.color-input {
+    margin: 4px;
+}
+
+.color-input input {
+    outline: 0;
+    height: 40px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.count-input select {
+    height: 40px;
+    width: 40px;
+    margin: 4px;
+    outline: 0;
+    cursor: pointer;
+}
+
+.palette {
+    display: flex;
+    height: calc(100% - 100px);
+}
+
+.palette-item {
+    height: 100%;
+    position: relative;
+    flex: 1;
+}
+
+.palette-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
