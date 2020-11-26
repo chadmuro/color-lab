@@ -50,6 +50,11 @@ header {
     height: 100%;
     position: relative;
     flex: 1;
+    transition: 0.3s all;
+}
+
+.palette-item:hover {
+    flex: 2;
 }
 
 .palette-name {
@@ -57,5 +62,4 @@ header {
     justify-content: center;
     align-items: center;
     height: 100%;
-
 }
